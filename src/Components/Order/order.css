@@ -1,0 +1,25 @@
+.shippingInfo h2{
+    text-align: center;
+    color: orange;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    border-bottom: 3px solid blue;
+}
+.shippingInfo img{
+    width: 400px;
+    margin-top: 100px;
+}
+.orderForm label{
+    color: blue;
+    padding: 10px 10px ;
+    margin-right:20px ;
+    font-size: 20px;
+    font-weight: 600;
+}
+.orderForm input {
+    width: 400px;
+    padding: 6px 10px;
+}

@@ -1,0 +1,19 @@
+.aboutus{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.aboutus h5 {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: orange;
+    margin-top: 70px;
+}
+.aboutus p {
+    font-weight: 500;
+    color: green;
+    margin-top: 30px;
+    font-style: italic;
+    line-height: 30px;
+    
+}

@@ -1,0 +1,23 @@
+.review h1{
+    text-align: center;
+    color: tomato;
+    letter-spacing: 10px;
+    margin: 60px 0px;
+}
+.reviewCard{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.reviewCard p {
+    color: blue;
+    font-weight: 500;
+    font-style: italic;
+    padding: 10px 5px;
+}
+.reviewCard h6 {
+    color: red;
+    font-weight: 500;
+    font-style: italic;
+}

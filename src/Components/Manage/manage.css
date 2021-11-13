@@ -1,0 +1,17 @@
+.manage th {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.manage td {
+    color: blue;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 500px;
+}
+.manage button {
+    background-color: orange;
+    font-weight: bold;
+    padding: 10px 10px;
+    margin: 3px 3px;
+}

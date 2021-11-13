@@ -1,0 +1,14 @@
+.admininput input{
+    width: 250px;
+    text-align: center;
+    padding: 10px 0px;
+}
+#adminbtn {
+    width: 130px;
+    padding: 12px 10px;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+}

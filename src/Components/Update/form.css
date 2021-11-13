@@ -1,0 +1,13 @@
+.updateForm input{
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+#update{
+    background-color: orange;
+    border: none;
+    width: 100px;
+    padding: 10px 20px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}

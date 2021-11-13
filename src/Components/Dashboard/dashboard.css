@@ -1,0 +1,44 @@
+.dasNav{
+    
+    height: 100%;
+    background-color:green;
+    padding: 20px 20px;
+    
+}
+.dboard{
+    height: 660px;
+}
+.dasNav h3,a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.dasContent h2{
+    text-align: center;
+    color: orange;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    border-bottom: 5px solid black;
+    padding: 10px ;
+}
+.dasContent h5{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 10px;;
+    padding: 20px ;
+   
+}
+.dashboardNav a {
+    color: black;
+    display: block;
+    padding: 10px 10px;
+}
+.dashboardNav a:hover {
+    color: white;
+    
+}
+
+.dashboardNav{
+    margin-top: 50px;
+}

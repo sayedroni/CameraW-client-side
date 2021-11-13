@@ -1,0 +1,30 @@
+.login-bg{
+    background-image: url('https://images.unsplash.com/photo-1567871268919-93826fc4ddad?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80');
+    background-size: cover;
+    background-position: center;
+    height: 660px;
+}
+.Lform{
+    width: 35%;
+    padding-top: 15%;
+    margin-left: 15%;
+    color: white;
+    font-weight: 600;
+    
+}
+.Lform h2{
+    margin-bottom: 40px;
+    margin-left: 25%;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.Lform button {
+    width: 200px;
+    margin-left: 25%;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.Lform a{
+    color: white;
+}
