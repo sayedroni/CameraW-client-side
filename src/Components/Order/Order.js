@@ -10,7 +10,7 @@ const Order = () => {
     const {user} = useAuth();
 
     useEffect(()=>{
-        const url = `http://localhost:5000/Collection/${id}`;
+        const url = `https://obscure-ravine-78219.herokuapp.com/Collection/${id}`;
         fetch(url)
         .then(res => res.json())
         .then(data => setorder(data))
@@ -21,7 +21,7 @@ const Order = () => {
       data.email = user.email;
       console.log(order)
       alert('Your order taken,Thanks for your order')
-      fetch('http://localhost:5000/order',{
+      fetch('https://obscure-ravine-78219.herokuapp.com/order',{
             method:'POST',
             headers:{"content-type":"application/json"},
             body:JSON.stringify(data),

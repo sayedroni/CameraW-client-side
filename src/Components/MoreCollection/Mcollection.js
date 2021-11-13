@@ -10,7 +10,7 @@ const Mcollection = () => {
 
     useEffect(()=>{
        
-        fetch('http://localhost:5000/Collection')
+        fetch('https://obscure-ravine-78219.herokuapp.com/Collection')
         .then(res => res.json())
         .then(data=> setcamera(data))
     },[])

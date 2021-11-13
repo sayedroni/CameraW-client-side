@@ -10,7 +10,7 @@ const Addreview = () => {
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
     const onSubmit = data =>{
         console.log(data)
-        fetch('http://localhost:5000/review',{
+        fetch('https://obscure-ravine-78219.herokuapp.com/review',{
       method:'POST',
       headers:{
         'content-type':'application/json'

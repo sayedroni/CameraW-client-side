@@ -10,7 +10,7 @@ const Addproduct = () => {
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
     const onSubmit = data =>{
         console.log(data)
-        fetch('http://localhost:5000/Collection',{
+        fetch('https://obscure-ravine-78219.herokuapp.com/Collection',{
       method:'POST',
       headers:{
         'content-type':'application/json'

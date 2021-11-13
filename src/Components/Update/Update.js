@@ -11,7 +11,7 @@ const Update = () => {
     const {id} = useParams()
     const [update,setupdate] =useState({})
     useEffect(()=>{
-        const url = `http://localhost:5000/Collection/${id}`;
+        const url = `https://obscure-ravine-78219.herokuapp.com/Collection/${id}`;
         fetch(url)
         .then(res => res.json())
         .then(data => setupdate(data))
@@ -36,7 +36,7 @@ const Update = () => {
     }
 
     const updateHandle = e =>{
-    const url = `http://localhost:5000/Collection/${id}`;
+    const url = `https://obscure-ravine-78219.herokuapp.com/Collection/${id}`;
         fetch(url,{
             method:'PUT',
             headers:{

@@ -13,7 +13,7 @@ const Myorder = () => {
     
 
     useEffect(()=>{
-        fetch('http://localhost:5000/order')
+        fetch('https://obscure-ravine-78219.herokuapp.com/order')
         .then( res=> res.json())
         .then(data => setmyorder(data))
     },[])
@@ -22,7 +22,7 @@ const Myorder = () => {
         const confirm = window.confirm("Are you sure to cancel order")
  
         if(confirm){
-         const   url = `http://localhost:5000/order/${id}`;
+         const   url = `https://obscure-ravine-78219.herokuapp.com/order/${id}`;
          fetch(url, {
              method:'DELETE'
          })

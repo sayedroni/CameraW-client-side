@@ -9,7 +9,7 @@ const ManageProduct = () => {
 
     const [services,setservice] = useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5000/Collection')
+        fetch('https://obscure-ravine-78219.herokuapp.com/Collection')
         .then(res => res.json())
         .then(result => setservice(result))
     },[])
@@ -17,7 +17,7 @@ const ManageProduct = () => {
     const deletehandle = id =>{
         const confirm = window.confirm("Are you sure to delete service")
           if(confirm){
-            const   url = `http://localhost:5000/Collection/${id}`;
+            const   url = `https://obscure-ravine-78219.herokuapp.com/Collection/${id}`;
             fetch(url, {
                 method:'DELETE'
             })
